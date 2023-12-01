@@ -1,0 +1,81 @@
+@media screen and (max-width: 400px) {
+
+  nav {
+    display: flex;
+    padding: 20px 10px;
+  }
+
+  .input{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+  nav img {
+    width: 100px;
+  }
+
+  nav{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  nav .button{
+    margin-top: 20px;
+  }
+
+  .first{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .txt > :nth-child(1){
+    font-size:30px;
+    margin: 70px 50px 0px 50px;
+  }
+
+
+    .txt > :nth-child(2){
+    font-size:18px;
+    margin: 50px ;
+  }
+
+
+  .secImg img{
+    width: 375px;
+  }
+
+  .secImg .video{
+    width: 270px;
+    top: 62px;
+    right: 54px;
+  }
+
+  .line{
+    width: 99vw;
+  }
+
+
+  .input{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  
+.video2 {
+    width: 238px;
+    position: absolute;
+    top: 16px;
+    right: 73px;
+}
+
+footer{
+  padding: 36px;
+}
+}
+
+

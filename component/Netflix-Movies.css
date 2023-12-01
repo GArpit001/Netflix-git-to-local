@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@900&family=Vina+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.netflix-movie-video {
+  width: 340px;
+  height: 200px;
+}
+
+.movie-card .downloadBtn {
+  text-decoration: none;
+  background-color: #9ADE7B;
+  color: white;
+  padding: 3px 16px;
+  margin: 10px 10px;
+  display: inline-block;
+  font-size: 25px;
+}
+
+.movie-card {
+  margin: 40px 0px 0px 28px;
+  text-align: center;
+  position: relative;
+}
+
+.tag{
+  color: white;
+  background-color: red;
+  padding: 3px 10px;
+  border-radius: 15px;
+  position: absolute;
+  right: 0px;
+  top: -10px;
+  
+}
+
+
+.myvideo {
+  border: 1px solid white;
+
+  /* padding: 10px; */
+
+  border-radius: 10px;
+}
+
+.main {
+  display: flex;
+
+  flex-wrap: wrap;
+}
+
+.w-100 {
+  width: 90%;
+  height: 300px;
+}
+
+.hTag {
+  font-size: 45px;
+  padding: 15px;
+  margin: 0px 0px;
+
+  /* background: url(../assets/image/jab\ tak\ hai\ jaan.jpg);
+  background-size: cover;
+  background-position: center;
+
+  background-clip: text;
+  -webkit-background-clip: text; */
+
+  font-family: "Poppins", sans-serif;
+  font-family: "Vina Sans", sans-serif;
+
+  letter-spacing: 4px;
+
+  color: black;
+
+  /* -webkit-text-stroke: 2px black;
+  color: transparent;
+  -webkit-text-stroke-color: rgb(199, 29, 57); */
+
+  background-color: rgba(255, 0, 0, 0.514);
+}
+
+.mainContainer {
+  background-color: black;
+}
+
+.navbar {
+  background-color: black;
+}
+
+.navbar {
+  padding: 0.5rem 5rem !important;
+}
+
+.NavUl {
+  list-style-type: none;
+
+  padding: 0px;
+  margin: 0px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.NavUl li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+.NavUl li {
+  margin: 0px 20px;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+}
+
+.NavUl a:hover {
+  transition: color 1s ease-out;
+  color: red;
+}
+
+.NavUl a:active {
+  transition: all 1s ease-out;
+  color: yellow;
+}
+
+.NavUl a:link {
+  transition: all 1s ease-out;
+  color: blue;
+}
